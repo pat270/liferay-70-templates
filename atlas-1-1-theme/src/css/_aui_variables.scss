@@ -1,0 +1,497 @@
+$FontAwesomePath: "aui/lexicon/fonts/alloy-font-awesome/font";
+$font-awesome-path: "aui/lexicon/fonts/alloy-font-awesome/font";
+$icon-font-path: "aui/lexicon/fonts/";
+
+// $gray-base:              #000 !default;
+// $gray-darker:            lighten($gray-base, 13.5%) !default; // #222
+// $gray-dark:              lighten($gray-base, 20%) !default;   // #333
+// $gray:                   lighten($gray-base, 33.5%) !default; // #555
+// $gray-light:             lighten($gray-base, 46.7%) !default; // #777
+// $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+
+$brand-default: #656974 !default;
+$brand-primary: #488FFF !default;
+$brand-success: #41A967 !default;
+$brand-info: #4172A9 !default;
+$brand-warning: #E77735 !default;
+$brand-danger: #FF6060 !default;
+
+$body-bg: #FFF !default;
+$text-color: #41444B !default;
+
+//## Define colors for form feedback states and, by default, alerts.
+// Alerts, Forms, List Groups, Panels, Tables, Type (.mark, text-emphasis, contextual-backgrounds)
+
+// $state-success-text:             #3c763d !default;
+// $state-success-bg:               #dff0d8 !default;
+// $state-success-border:           darken(adjust-hue($state-success-bg, -10), 5%) !default;
+
+// $state-info-text:                #31708f !default;
+// $state-info-bg:                  #d9edf7 !default;
+// $state-info-border:              darken(adjust-hue($state-info-bg, -10), 7%) !default;
+
+// $state-warning-text:             #8a6d3b !default;
+// $state-warning-bg:               #fcf8e3 !default;
+// $state-warning-border:           darken(adjust-hue($state-warning-bg, -10), 5%) !default;
+
+// $state-danger-text:              #a94442 !default;
+// $state-danger-bg:                #f2dede !default;
+// $state-danger-border:            darken(adjust-hue($state-danger-bg, -10), 5%) !default;
+
+// Breadcrumbs
+
+$breadcrumb-border-radius: 0 !default;
+$breadcrumb-padding-vertical: 10px !default;
+$breadcrumb-text-transform: capitalize !default;
+
+$breadcrumb-bg: #FFF !default;
+$breadcrumb-color: #656974 !default;
+$breadcrumb-font-size: 15px !default;
+$breadcrumb-font-weight: normal !default;
+
+$breadcrumb-link-color: #656974 !default;
+
+$breadcrumb-active-font-weight: 500 !default;
+
+$breadcrumb-separator-font-weight: $breadcrumb-font-weight !default;
+
+// Buttons
+
+$btn-border-width: 1px !default;
+$btn-padding-horizontal: 15px !default;
+$btn-padding-vertical: 9px !default;
+
+$btn-default-color: $text-color !default;
+$btn-default-bg: #FFF !default;
+$btn-default-border: #dddee1 !default;
+$btn-default-hover-color: $btn-default-color !default;
+$btn-default-hover-bg: darken($btn-default-bg, 3%) !default;
+$btn-default-hover-border: darken($btn-default-border, 3%) !default;
+$btn-default-active-color: $btn-default-color !default;
+$btn-default-active-bg: darken($btn-default-bg, 12%) !default;
+$btn-default-active-border: darken($btn-default-hover-border, 12%) !default;
+
+// Dropdowns
+
+$dropdown-border-width: 0 !default;
+$dropdown-box-shadow: 0 1px 2px 0 transparentize(#000, 0.7) !default;
+$dropdown-link-active-color: #656974 !default;
+$dropdown-link-hover-bg: #f5f9ff !default;
+
+// Forms
+
+$input-border-bottom-width: 1px !default;
+$input-border-left-width: 1px !default;
+$input-border-right-width: 1px !default;
+$input-border-top-width: 1px !default;
+
+$input-padding-horizontal: 16px !default;
+$input-padding-vertical: 8px !default;
+
+$input-bg: #f1f3f5 !default;
+$input-border: #eaebed !default;
+$input-border-focus: #a4c7ff !default;
+$input-border-radius: 3px !default;
+$input-box-shadow: none !default;
+$input-box-shadow-focus: none !default;
+
+$input-bg-focus: #eaf4fe !default;
+
+$input-bg-disabled: #eaebed !default;
+$input-border-disabled: $input-bg-disabled !default;
+$input-color-disabled: #999 !default;
+$input-opacity-disabled: 0.6 !default;
+
+$input-color-focus: $text-color !default;
+$input-color-placeholder: #989da6 !default;
+$input-color-placeholder-focus: $input-color-placeholder !default;
+
+$input-label-color: #41444B !default;
+$input-label-reference-mark-spacer: 0 !default;
+$input-label-reference-mark-vertical-alignment: top !default;
+
+$input-readonly-bg: #eaebed !default;
+$input-readonly-border: #eaebed !default;
+$input-readonly-color: $text-color !default;
+
+// $input-select-bg: #FFF !default;
+$input-select-icon-color: $text-color !default;
+$input-select-icon-focus-color: $input-select-icon-color !default;
+
+$input-select-bg-position: right 5px center !default;
+$input-select-padding-right: 28px !default;
+
+// $input-select-danger-icon-color: $brand-danger !default;
+// $input-select-danger-icon-focus-color: darken($input-select-danger-icon-color, 10%) !default;
+// $input-select-success-icon-color: $brand-success !default;
+// $input-select-success-icon-focus-color: darken($input-select-success-icon-color, 10%) !default;
+// $input-select-warning-icon-color: $brand-warning !default;
+// $input-select-warning-icon-focus-color: darken($input-select-warning-icon-color, 10%) !default;
+
+// $input-select-danger-icon: null !default;
+// $input-select-danger-icon-focus: null !default;
+// $input-select-success-icon: null !default;
+// $input-select-success-icon-focus: null !default;
+// $input-select-warning-icon: null !default;
+// $input-select-warning-icon-focus: null !default;
+
+$input-textarea-height: 175px !default;
+
+$input-danger-bg: #ffefef !default;
+$input-danger-bg-focus: $input-danger-bg !default;
+$input-danger-border: #e3a9a8 !default;
+$input-danger-border-focus: $input-danger-border !default;
+$input-danger-box-shadow: none !default;
+$input-danger-box-shadow-focus: none !default;
+$input-danger-label-color: $input-label-color !default;
+$input-danger-checkbox-label-color: $brand-danger !default;
+
+$input-success-bg: #eafaf0 !default;
+$input-success-bg-focus: $input-success-bg !default;
+$input-success-border: #a7cab2 !default;
+$input-success-border-focus: $input-success-border !default;
+$input-success-box-shadow: none !default;
+$input-success-box-shadow-focus: none !default;
+$input-success-label-color: $input-label-color !default;
+$input-success-checkbox-label-color: $brand-success !default;
+
+$input-warning-bg: #fdf2ec !default;
+$input-warning-bg-focus: $input-warning-bg !default;
+$input-warning-border: #deb9a6 !default;
+$input-warning-border-focus: $input-warning-border !default;
+$input-warning-box-shadow: none !default;
+$input-warning-box-shadow-focus: none !default;
+$input-warning-label-color: $input-label-color !default;
+$input-warning-checkbox-label-color: $brand-warning !default;
+
+$input-group-addon-border-radius: $input-border-radius !default;
+$input-group-default-addon-content-border-bottom-width: 0 !default;
+
+// Badges
+
+$badge-font-weight: normal !default;
+$badge-font-size: 14px !default;
+$badge-border-style: solid !default;
+$badge-border-width: 0 !default;
+
+$badge-active-color: inherit !default;
+$badge-active-bg: none !default;
+
+$badge-danger-bg: $brand-danger !default;
+$badge-danger-color: #FFF !default;
+$badge-danger-hover-bg: darken($badge-danger-bg, 5%) !default;
+
+$badge-default-bg: $brand-default !default;
+$badge-default-color: #FFF !default;
+$badge-default-hover-bg: darken($badge-default-bg, 5%) !default;
+
+$badge-info-bg: $brand-info !default;
+$badge-info-color: #FFF !default;
+$badge-info-hover-bg: darken($badge-info-bg, 5%) !default;
+
+$badge-primary-bg: $brand-primary !default;
+$badge-primary-color: #FFF !default;
+$badge-primary-hover-bg: darken($badge-primary-bg, 5%) !default;
+
+$badge-success-bg: $brand-success !default;
+$badge-success-color: #FFF !default;
+$badge-success-hover-bg: darken($badge-success-bg, 5%) !default;
+
+$badge-warning-bg: $brand-warning !default;
+$badge-warning-color: #FFF !default;
+$badge-warning-hover-bg: darken($badge-warning-bg, 5%) !default;
+
+// Labels
+
+$label-font-weight: normal !default;
+$label-font-size: 14px !default;
+$label-border-style: solid !default;
+$label-border-width: 1px !default;
+$label-link-text-decoration: underline !default;
+
+$label-danger-bg: transparent !default;
+$label-danger-border: #ff6767 !default;
+$label-danger-color: #ff6767 !default;
+$label-danger-hover-bg: lighten($label-danger-border, 25%) !default;
+$label-danger-hover-border: darken($label-danger-border, 20%) !default;
+$label-danger-hover-color: $label-danger-color !default;
+
+$label-default-bg: transparent !default;
+$label-default-border: #d9dde3 !default;
+$label-default-color: #656974 !default;
+$label-default-hover-bg: lighten($label-default-border, 10%) !default;
+$label-default-hover-border: darken($label-default-border, 20%) !default;
+$label-default-hover-color: $label-default-color !default;
+
+$label-info-bg: transparent !default;
+$label-info-border: #5883d2 !default;
+$label-info-color: #5883d2 !default;
+$label-info-hover-bg: lighten($label-info-border, 25%) !default;
+$label-info-hover-border: darken($label-info-border, 20%) !default;
+$label-info-hover-color: $label-info-color !default;
+
+$label-primary-bg: transparent !default;
+$label-primary-border: #4172a9 !default;
+$label-primary-color: #4172a9 !default;
+$label-primary-hover-bg: lighten($label-primary-border, 40%) !default;
+$label-primary-hover-border: darken($label-primary-border, 20%) !default;
+$label-primary-hover-color: $label-primary-color !default;
+
+$label-success-bg: transparent !default;
+$label-success-border: #41a967 !default;
+$label-success-color: #41a967 !default;
+$label-success-hover-bg: lighten($label-success-border, 40%) !default;
+$label-success-hover-border: darken($label-success-border, 20%) !default;
+$label-success-hover-color: $label-success-color !default;
+
+$label-warning-bg: transparent !default;
+$label-warning-border: #e77735 !default;
+$label-warning-color: #e77735 !default;
+$label-warning-hover-bg: lighten($label-warning-border, 40%) !default;
+$label-warning-hover-border: darken($label-warning-border, 20%) !default;
+$label-warning-hover-color: $label-warning-color !default;
+
+// Stickers
+
+$sticker-border-radius: 3px !default;
+
+$sticker-danger-bg: $brand-danger !default;
+$sticker-danger-color: null !default;
+$sticker-default-bg: $brand-default !default;
+$sticker-default-color: #FFF !default;
+$sticker-info-bg: $brand-info !default;
+$sticker-info-color: null !default;
+$sticker-primary-bg: $brand-primary !default;
+$sticker-primary-color: null !default;
+$sticker-success-bg: $brand-success !default;
+$sticker-success-color: null !default;
+$sticker-warning-bg: $brand-warning !default;
+$sticker-warning-color: null !default;
+
+// List Group
+
+$list-group-border: #e9e9ef !default;
+$list-group-box-shadow: none !default;
+
+$list-group-active-bg: #f6f9ff !default;
+$list-group-active-border: #e9e9ef !default;
+$list-group-active-color: $text-color !default;
+
+$list-group-item-dropdown-toggle-color: #a2a7c2 !default;
+$list-group-item-dropdown-toggle-focus-color: #5f6584 !default;
+
+$list-group-item-active-dropdown-toggle-color: $list-group-item-dropdown-toggle-color !default;
+$list-group-item-active-dropdown-toggle-focus-color: #5f6584 !default;
+
+$list-group-hover-bg: #f6f9ff !default;
+
+$list-group-header-bg: #eaebf0 !default;
+$list-group-header-color: #72768c !default;
+$list-group-header-close-border-width: 0 !default;
+$list-group-header-open-border-width: 0 !default;
+
+$list-group-header-font-weight: 300 !default;
+
+$tabular-list-group-active-border-bottom-width: 0 !default;
+
+// Management Bar
+
+$management-bar-dropdown-menu-margin-top: 3px !default;
+
+$management-bar-margin-bottom: 20px !default;
+
+$management-bar-default-bg: #fff !default;
+$management-bar-default-box-shadow: 0 3px 3px -3px transparentize(#000, 0.7) !default;
+$management-bar-default-color: $text-color !default;
+
+$management-bar-default-link-color: $text-color !default;
+$management-bar-default-link-hover-color: $management-bar-default-link-color !default;
+$management-bar-default-link-active-color: $management-bar-default-link-hover-color !default;
+
+$management-bar-default-btn-default-border: transparent !default;
+$management-bar-default-btn-default-color: $management-bar-default-link-color !default;
+$management-bar-default-btn-default-hover-color: $management-bar-default-link-hover-color !default;
+
+$management-bar-default-btn-default-active-bg: #ebf3ff !default;
+
+// Navbar
+
+$navbar-border-bottom-width: 0 !default;
+
+$navbar-link-active-bottom-border-width: 4px !default;
+
+$navbar-default-bg: #535870 !default;
+$navbar-default-border: $navbar-default-bg !default;
+$navbar-default-border-bottom-width: 0 !default;
+$navbar-default-color: #FFF !default;
+$navbar-default-link-color: #FFF !default;
+$navbar-default-link-hover-color: #FFF !default;
+$navbar-default-link-active-color: #FFF !default;
+
+$navbar-default-collapsible-search-btn-default-color: $navbar-default-link-color !default;
+$navbar-default-collapsible-search-input-color: $navbar-default-link-color !default;
+$navbar-default-collapsible-search-input-placeholder-color: transparentize(#FFF, 0.5) !default;
+
+$navbar-default-collapsible-search-highlight: $navbar-default-bg !default;
+$navbar-default-collapsible-search-focus-highlight: $brand-primary !default;
+
+$navbar-inverse-bg: #FFF !default;
+$navbar-inverse-border: $navbar-inverse-bg !default;
+$navbar-inverse-color: $text-color !default;
+$navbar-inverse-link-color: $text-color !default;
+
+$navbar-inverse-collapsible-search-btn-default-color: $navbar-inverse-link-color !default;
+$navbar-inverse-collapsible-search-input-color: $navbar-inverse-link-color !default;
+$navbar-inverse-collapsible-search-input-placeholder-color: transparentize(#000, 0.5) !default;
+
+$navbar-inverse-collapsible-search-highlight: null !default;
+$navbar-inverse-collapsible-search-focus-highlight: $brand-primary !default;
+
+$navbar-inverse-toggle-icon-bar-bg: $text-color !default;
+
+// Pagination
+
+$pagination-border-width: 1px !default;
+$pagination-color: $text-color !default;
+
+$pagination-active-bg: transparentize(#c5c5d2, 0.8) !default;
+$pagination-active-border: #f3f3f6 !default;
+$pagination-active-color: $pagination-color !default;
+
+$pagination-ellipsis-hover-color: $pagination-color !default;
+
+$pagination-items-per-page-border: #e7e7ed !default;
+$pagination-items-per-page-bg: $pagination-active-bg !default;
+
+$pagination-results-color: #76768c !default;
+
+// Panels
+
+// $collapse-icon-padding-left: 45px !default;
+// $collapse-icon-padding-right: 20px !default;
+
+// $collapse-icon-position-left: 15px !default;
+// $collapse-icon-position-right: auto !default;
+// $collapse-icon-position-top: 20px !default;
+
+$panel-heading-border-bottom-width: 0 !default;
+$panel-heading-padding: 20px !default;
+$panel-body-padding: 20px !default;
+$panel-footer-padding: 10px 20px !default;
+
+$panel-group-panel-spacer: 10px !default;
+
+$panel-danger-text: #FFF !default;
+$panel-danger-border: $brand-danger !default;
+$panel-danger-heading-bg: $brand-danger !default;
+
+$panel-default-heading-bg: #FFF !default;
+$panel-default-text: #41444B !default;
+
+$panel-info-text: #FFF !default;
+$panel-info-border: $brand-info !default;
+$panel-info-heading-bg: $brand-info !default;
+
+$panel-primary-text: #fff !default;
+$panel-primary-border: $brand-primary !default;
+$panel-primary-heading-bg: $brand-primary !default;
+
+$panel-success-text: #FFF !default;
+$panel-success-border: $brand-success !default;
+$panel-success-heading-bg: $brand-success !default;
+
+$panel-warning-text: #FFF !default;
+$panel-warning-border: $brand-warning !default;
+$panel-warning-heading-bg: $brand-warning !default;
+
+// Progress Bars
+
+$progress-bar-height: 10px !default;
+$progress-bar-box-shadow: none !default;
+
+$progress-bg: #e7e7ed !default;
+$progress-border-radius: 500px !default;
+$progress-box-shadow: none !default;
+
+$progress-bar-xs-border-radius: $progress-border-radius !default;
+$progress-bar-lg-border-radius: $progress-border-radius !default;
+$progress-bar-xl-border-radius: $progress-border-radius !default;
+
+// Sidebar
+
+$sidebar-default-bg: #f6f8fb !default;
+$sidebar-default-border: #EDF0F2 !default;
+$sidebar-default-color: $text-color !default;
+
+// Tables
+
+$table-bg-accent: #f0f6ff !default;
+$table-bg-hover: #f0f6ff !default;
+$table-border-color: #e9e9ef !default;
+$table-list-row-active-border-bottom-width: 1px !default;
+$table-list-row-active-border-color: $table-border-color !default;
+$table-list-row-border-bottom-width: 1px !default;
+$table-list-row-height: 72px !default;
+
+$table-list-font-size: null !default;
+
+$table-list-color: $text-color !default;
+$table-list-link-color: #a5a9be !default;
+$table-list-link-color-hover: darken($table-list-link-color, 25%) !default;
+
+$table-list-header-bg: #e7e7ed !default;
+$table-list-header-font-size: 14px !default;
+$table-list-header-font-weight: 500 !default;
+$table-list-header-min-height: 37px !default;
+$table-list-header-vertical-alignment: middle !default;
+
+// Toggle Switch
+
+$toggle-switch-bar-padding: 4px !default;
+$toggle-switch-button-width: 16px !default;
+
+$toggle-switch-bar-height: ($toggle-switch-bar-padding * 2) + $toggle-switch-button-width !default;
+$toggle-switch-bar-width: 44px !default;
+
+$toggle-switch-bar-desktop-padding: 4px !default;
+$toggle-switch-button-desktop-width: 16px !default;
+
+$toggle-switch-bar-desktop-height: ($toggle-switch-bar-desktop-padding * 2) + $toggle-switch-button-desktop-width !default; // Atlas
+$toggle-switch-bar-desktop-width: 44px !default;
+
+$toggle-switch-bar-focus-box-shadow: none !default;
+
+// Toggle Switch Off
+$toggle-switch-button-border-radius: 50% !default;
+$toggle-switch-bar-bg: #71768f !default;
+$toggle-switch-bar-border-color: #71768f !default;
+$toggle-switch-bar-icon-color: #a8abbe !default;
+
+$toggle-switch-button-bg: #a8abbe !default;
+$toggle-switch-button-border-color: #a8abbe !default;
+$toggle-switch-button-icon-color: #656974 !default;
+
+// Toggle Switch On
+$toggle-switch-button-on-border-radius: $toggle-switch-button-border-radius !default;
+$toggle-switch-bar-on-bg: $brand-primary !default;
+$toggle-switch-bar-on-border-color: $brand-primary !default;
+$toggle-switch-bar-on-icon-color: $brand-primary !default;
+
+$toggle-switch-button-on-bg: #FFF !default;
+$toggle-switch-button-on-border-color: #FFF !default;
+$toggle-switch-button-on-icon-color: #FFF !default;
+
+// Styled Styles
+
+$splitter-bg: #f7f7fb !default;
+$splitter-box-shadow: none !default;
+
+body {
+	background-color: #F1F3F5 !important;
+}
+
+.info-panel {
+	@media (min-width: 768px) {
+		margin-top: -$management-bar-margin-bottom + 2;
+	}
+}
